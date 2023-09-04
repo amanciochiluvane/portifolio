@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Mono:wght@100;300&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  height: 100vh;
+  width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header{
+  padding-top: 50px;
+  height: 360px;
+  color: white;
+  background-color: black;
+}
+
+header>span>h1{
+  text-align: center;
+}
+
+.creative{
+  font-weight: lighter;
+}
+header>div{
+  margin-top: 20px;
+  height: 300px;
+  background-image: url(assets/mobile.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+main{
+  margin-top: 40px;
+}
+main>div>h2{
+  text-align: center;
+  margin-bottom: 30px
+}
+main>div>p{
+  font-family: 'Roboto Mono', monospace;
+  font-weight:700;
+  padding: 20px;
+}
+
+.Tech{
+  background-color: black;
+  color:white;
+  padding-top:30px ;
+  height: 300px;
+}
+.Tech>h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo{
+  display: flex;
+}
+.pb{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.Projects{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.proj{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.Projects>h2{
+  text-align: center;
+  margin-top: 20px;
+  
+}
+.Habits{
+  background-image:url(assets/Habits.PNG);
+  width:280px;
+  height: 150px;
+  background-size: cover;
+  margin: auto;
+}
+
+.Android{
+  background-image:url(assets/Android.PNG);
+  width:280px;
+  height: 150px;
+  background-size: cover;
+  margin: auto;
+}
+
+.Salesmz{
+  background-image:url(assets/Salesmz.PNG);
+  width:280px;
+  height: 150px;
+  background-size: cover;
+  margin: auto;
+}
+
+.Cordel{
+  background-image:url(assets/Cordel.PNG);
+  width:280px;
+  height: 150px;
+  background-size: cover;
+  margin: auto;
+}
+footer{
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  padding-top: 30px;
+  height: 130px;
+}
+footer>h2{
+  text-align: center;
+}
+.Social{
+  margin-top: 10px;
+  text-align: center;
+}
+footer>div>a>img{
+  width: 35px;
+  margin: 10px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px black;
+  box-sizing: border-box;
+}
+footer>div>a>img:hover{
+  border: 2px solid white;
+  transform: translate(-5px, -5px);
+  transition: transform 1s;
+  cursor: pointer;
+}
+section>a>div:hover{
+  border: 2px solid rgb(163, 19, 19);
+  transition: transform 1s;
+  cursor: pointer;
+}
+
+
+@media (min-width:480px) {
+span{
+  height: 100px;
+  margin-top: 120px;
+  padding-left: 5vw;
+} 
+header{
+  display: flex;
+ }
+ header>div{
+  background-image: url(assets/tablets.png);
+  background-size: cover;
+  width: 100vw;
+  height: 400px;
+  margin-top: -39px;
+ 
+ }
+
+
+ .techsimg{
+ padding-left: 30vw;
+ }
+}
+
+@media (min-width:769px){
+header{
+  height: 400px;
+}
+span{
+  font-size: x-large;
+}
+header>div{
+  width: 500px;
+  height: 450px;
+  position: absolute;
+  right: 0px;
+  margin-top: -49px;
+}
+
+.proj{
+  display: grid;
+  display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 1fr); 
+    gap: 40px; /* Espaço entre as células do grid */
+}
+}
+@media (min-width:1080px){
+  span{
+    margin-left: 10vw;
+  }
+  #projec{
+    width: 400px;
+    height: 250px;
+  }
+}
