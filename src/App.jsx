@@ -28,7 +28,7 @@ function App() {
       </header>
 
       <main>
-        <div className='About me'>
+        <div className='Aboutme'>
           <h2>Sobre mim</h2>
           <p>Olá! Sou Amâncio Fernando Chiluvane, um entusiasta desenvolvedor frontend apaixonado por transformar ideias criativas em experiências interativas na web. Minha jornada na programação começou com a busca por unir design e código de forma harmoniosa.</p>
           <p>
@@ -44,14 +44,14 @@ function App() {
             <div className='techsimg'>
               <div className='logo'>
                 <img src={htmlimg} alt="imagem html5"  />
-                <ProgressBar bgColor="chocolate"  className='pb' width='200px' completed={90}/>
+                <ProgressBar bgColor="chocolate"  className='pb'  completed={90}/>
               </div>
               <div className='logo'>
                 <img src={cssimg} alt="imagem Css3"/>
                 <ProgressBar 
                 bgColor="aquamarine"
                 labelColor='black'
-                className='pb'  width='200px' completed={91}/>
+                className='pb'   completed={91}/>
               </div>
               
               <div className='logo'>
@@ -59,11 +59,11 @@ function App() {
                 <ProgressBar 
                 bgColor = "yellow"
                 labelColor='black'
-                className='pb'   width='200px' completed={60}/>
+                className='pb'    completed={60}/>
               </div>
               <div className='logo'>
                 <img src={reactimg} alt="imagem react"  />
-                <ProgressBar className='pb'  width='200px' completed={75}/>
+                <ProgressBar className='pb'   completed={75}/>
               </div>
               
               

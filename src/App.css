@@ -60,6 +60,7 @@ main>div>p{
 .pb{
   margin-top: 10px;
   margin-left: 10px;
+  width: 200px;
 }
 .Projects{
   display: flex;
@@ -142,6 +143,9 @@ section>a>div:hover{
 
 
 @media (min-width:480px) {
+  body{
+    overflow-x: hidden;
+  }
 span{
   height: 100px;
   margin-top: 120px;
@@ -157,6 +161,9 @@ header{
   height: 400px;
   margin-top: -39px;
  
+ }
+ main>div>p{
+  padding-right: 40px;
  }
 
 
@@ -185,7 +192,7 @@ header>div{
   display: grid;
     grid-template-columns: repeat(2, 1fr); 
     grid-template-rows: repeat(2, 1fr); 
-    gap: 40px; /* Espaço entre as células do grid */
+    gap: 40px;
 }
 }
 @media (min-width:1080px){
@@ -195,5 +202,16 @@ header>div{
   #projec{
     width: 400px;
     height: 250px;
+  }
+  .Aboutme{
+    padding-bottom: 90px;
+  }
+  main>div>p{
+    padding-left: 450px;
+    padding-right: 450px;
+    
+  }
+  .pb{
+    width: 400px;
   }
 }
